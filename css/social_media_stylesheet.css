@@ -1,0 +1,21 @@
+.social-media-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.social-media-div h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #6c7278;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social-media-div img {
+    align-self: center;
+    max-width: 100%;
+}
