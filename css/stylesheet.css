@@ -309,7 +309,7 @@ button {
 /* Footer */
  .footer-div {
     display: flex;
-    background-image: url("../imgs/footerbg.png");
+    background-image: url("./imgs/footerbg.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom;
