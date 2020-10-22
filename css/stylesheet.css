@@ -40,7 +40,7 @@ button {
 
 
 .header {
-    background-image: url("../imgs/contactdivtopimg.png"), url("../imgs/headerimg.png");
+    background-image: url("./imgs/contactdivtopimg.png"), url("../imgs/headerimg.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center bottom, center;
