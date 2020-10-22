@@ -40,7 +40,7 @@ button {
 
 
 .header {
-    background-image: url("./imgs/contactdivtopimg.png"), url("./imgs/headerimg.png");
+    background-image: url("../imgs/contactdivtopimg.png"), url("../imgs/headerimg.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center bottom, center;
@@ -63,24 +63,30 @@ button {
 .bottom-nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding: 0 80px;
+    justify-content: space-between;
+    padding: 5px 80px;
     background-color: #fff;
     z-index: 1;
 }
 
+.nav-list-div {
+    display: flex;
+    align-content: center;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+}
 .bottom-nav img {
-    width: 200px;
-    
-    position: absolute;
-    z-index: 2;
-    top: 5px;
-    left: 50px;
+    width: 220px;
+    height: auto;
 }
 
 .nav-list {
     list-style-type: none;
     display: flex;
+    align-content: center;
 }
 
 .nav-list li {
@@ -303,7 +309,7 @@ button {
 /* Footer */
  .footer-div {
     display: flex;
-    background-image: url("./imgs/footerbg.png");
+    background-image: url("../imgs/footerbg.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom;
@@ -481,10 +487,20 @@ button {
         padding: 0 10px;
     }
 
+    .logo {
+        background-color: white;
+        padding: 20px 0 0;
+    }
+
     .bottom-nav img {
         position: initial;
-        margin: -20px auto -40px;
+        margin: auto;
     }
+
+    .nav-list-div {
+        margin: auto;
+    }
+
 
     .header-text {
         width: 90%;
@@ -544,6 +560,7 @@ button {
 @media screen and (max-width: 636px) {
     .header {
         background-image: none;
+        height: auto;
     }
 
     .top-nav {
@@ -555,11 +572,13 @@ button {
     .bottom-nav {
         flex-direction: column;
         justify-content: center;
+        padding: 20px 0;
     }
 
     .nav-list {
         display: block;
         width: 100%;
+        margin-bottom: 20px;
         padding: 0;
     }
     
@@ -580,7 +599,7 @@ button {
     }
 
     .contact-div {
-        padding-top: 0;
+        padding: 40px 0 60px;;
     }
 
     .services-div {
@@ -599,6 +618,11 @@ button {
     footer {
         padding: 0;
     }
+
+    .footer-div {
+        padding-top: 80px;
+    }
+
     footer img {
         display: none;
     }
