@@ -15,8 +15,8 @@
   <div class="header">
     <nav>
         <div class="top-nav">
-            <div>Phone: (xxx)xxx:xxx</div>
-            <div>Email: contact@email.com</div>
+            <div>Phone: (757) 570-8930</div>
+            <div>Email: mailto:milos@aquacarepools.us</div>
         </div>
 
         <div class="bottom-nav">
@@ -211,9 +211,9 @@
             <div class="foot-contact footer-size">
                 <ul>
                     <h4>Contact Us!</h4>
-                    <li><img src="imgs/phone.png">(xxx)xxx-xxxx</li>
-                    <li><img src="imgs/pin.png"> 123 Street ln, City, State, Zip</li>
-                    <li><img src="imgs/email.png">contact@email.com</li>
+                    <li><img src="imgs/phone.png">(757) 570-8930</li>
+                    <li><img src="imgs/pin.png">641 Basilica Ct, Virginia Beach, VA 23464</li>
+                    <li><img src="imgs/email.png">mailto:milos@aquacarepools.us</li>
                     <li>
                         <img src="imgs/facebook.png">
                         <img src="imgs/instagram.png">
@@ -244,34 +244,7 @@
     </div>
 
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
+<script src="js/gallery.js"></script>
 </body>
 
 </html>
